@@ -1,5 +1,7 @@
 # flask_user_management
 
+User management system is a web app developed on Flask rest api. It simply register user and get all the user details in a json format.
+
 # Python-Flask Setup
 ## Prerequisites:
 * python 3.6+
@@ -37,3 +39,7 @@
 
 ## Run all the file using following command:
 *source filepath.sql
+
+## How to test request and response
+
+To test the request and response i have used Postman Tool.
