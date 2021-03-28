@@ -20,7 +20,7 @@ User management system is a web app developed on Flask rest api. It simply regis
 * pip install -r requirements.txt
 
 ## Flask code execution:
-# for dynamic port run:
+### for dynamic port run:
 * set FLASK_APP= test.py
 * flask run --port=2000 
 
