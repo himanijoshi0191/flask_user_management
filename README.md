@@ -1,6 +1,6 @@
 # flask_user_management
 
-## Python-Flask Setup
+# Python-Flask Setup
 ## Prerequisites:
 * python 3.6+
 * Virtual Environment
@@ -23,11 +23,11 @@
 *set FLASK_APP= test.py
 *flask run --port=2000 
 
-## How to Run MYSQL Qury:
+# How to Run MYSQL Qury:
 
-# Run sql query to mysql terminal:
+### Run sql query to mysql terminal:
 
-# login with mysql database:
+### login with mysql database:
 * mysql -u root -p
 
 ## After login run the sql file following sequence:
