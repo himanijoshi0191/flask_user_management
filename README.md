@@ -37,7 +37,7 @@ User management system is a web app developed on Flask rest api. It simply regis
 3. create_address_table.sql
 
 ## Run all the file using following command:
-*source filepath.sql
+* source filepath.sql
 
 ## How to test request and response
 
