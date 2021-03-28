@@ -9,19 +9,23 @@ import re
 @app.route('/', methods=['GET'])
 def get_user():
     json_data = []
-    con = mysql_connection()
-    # Get all the users from data base
-    all_users = con.execute("select * from user")
-    if all_users > 0:
-        user_details = con.fetchall()
-    user = []
-    content = {}
-    for result in user_details:
-        content = {'id': result['user_id'], 'name': result['name'],
-                   'email': result['email'], 'mobile': result['mobile']}
-        user.append(content)
-        content = {}
-    return jsonify(user)
+    try:
+        con = mysql_connection()
+        # Get all the users from data base
+        all_users = con.execute("select * from user")
+        if all_users > 0:
+            user_details = con.fetchall()
+            user = []
+            content = {}
+            for result in user_details:
+                content = {'id': result['user_id'], 'name': result['name'],
+                        'email': result['email'], 'mobile': result['mobile']}
+                user.append(content)
+                content = {}
+            return jsonify(user)
+    except Exception as e:
+        print(e)
+    return "sorry No Data found"
 
 
 @app.route('/ragister', methods=['POST'])
