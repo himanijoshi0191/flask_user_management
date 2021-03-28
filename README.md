@@ -25,9 +25,9 @@
 
 ## How to Run MYSQL Qury:
 
-## Run sql query to mysql terminal:
+# Run sql query to mysql terminal:
 
-## login with mysql database:
+# login with mysql database:
 * mysql -u root -p
 
 ## After login run the sql file following sequence:
@@ -35,6 +35,5 @@
 2. create_user_table.sql
 3. create_address_table.sql
 
-##Run all the file using following command:
-
+## Run all the file using following command:
 *source filepath.sql
