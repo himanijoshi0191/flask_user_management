@@ -21,7 +21,7 @@ User management system is a web app developed on Flask rest api. It simply regis
 
 ## Flask code execution:
 ### for dynamic port run:
-* set FLASK_APP= test.py
+* set FLASK_APP= manage.py
 * flask run --port=2000 
 
 # How to Run MYSQL Qury:
